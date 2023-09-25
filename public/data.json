@@ -1,0 +1,137 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "img": "https://ibb.co/gmH4Gr3",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": 49.99
+      },
+      {
+        "id": 2,
+        "img": "https://ibb.co/hXQPjSZ",
+        "title": "Education",
+        "category": "Good education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#e67e22",
+        "description": "Suspendisse nec justo in urna varius pellentesque.",
+        "price": 29.99
+      },
+      {
+        "id": 3,
+        "img": "https://ibb.co/GMmj5zV",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#d2b4de",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Proin eu odio ut urna malesuada vehicula.",
+        "price": 79.99
+      },
+      {
+        "id": 4,
+        "img": "https://ibb.co/0sZxXV1",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Vestibulum auctor dolor nec ante rutrum consectetur.",
+        "price": 59.99
+      },
+      {
+        "id": 5,
+        "img": "https://ibb.co/0sZxXV1",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#e67e22",
+        "description": "Fusce eget purus ac sapien tristique euismod.",
+        "price": 39.99
+      },
+      {
+        "id": 6,
+        "img": "https://ibb.co/GMmj5zV",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#d2b4de",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Nulla facilisi. In hac habitasse platea dictumst.",
+        "price": 89.99
+      },
+      {
+        "id": 7,
+        "img": "https://ibb.co/hXQPjSZ",
+        "title": "Education",
+        "category": "Good education",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Quisque ac quam non erat pulvinar malesuada.",
+        "price": 69.99
+      },
+      {
+        "id": 8,
+        "img": "https://ibb.co/gmH4Gr3",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#e67e22",
+        "description": "Pellentesque in justo ut enim convallis tristique.",
+        "price": 49.99
+      },
+      {
+        "id": 9,
+        "img": "https://ibb.co/gmH4Gr3",
+        "title": "Health",
+        "category": "Clean water for children",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#d2b4de",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Curabitur vel enim vel nulla interdum feugiat.",
+        "price": 99.99
+      },
+      {
+        "id": 10,
+        "img": "https://ibb.co/hXQPjSZ",
+        "title": "Education",
+        "category": "Good education",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ecf0f1",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Sed in quam non lectus fermentum mattis.",
+        "price": 79.99
+      },
+      {
+        "id": 11,
+        "img": "https://ibb.co/GMmj5zV",
+        "title": "Clothing",
+        "category": "Used Clothing Drive",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f2dede",
+        "text_button_bg_color": "#e67e22",
+        "description": "Vivamus lacinia a dui id posuere.",
+        "price": 59.99
+      },
+      {
+        "id": 12,
+        "img": "https://ibb.co/0sZxXV1",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#d2b4de",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Nam a metus a odio malesuada dictum.",
+        "price": 69.99
+      }
+    ]
+  }
+  
