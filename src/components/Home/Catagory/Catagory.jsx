@@ -1,10 +1,13 @@
-import { useEffect, useState } from "react";
+/* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
 
 const Catagory = ({card}) => {
-    const{id,img,title,category,card_bg_color}=card;
+    // eslint-disable-next-line no-unused-vars
+    const{id,img,title,category,card_bg_color,text_button_bg_color,category_bg_text_color}=card;
     return (
         <div>
+                <Link to={`/catagories/${id}`}>
                 <div style={{ backgroundColor: card_bg_color || 'red' }} className="relative flex  flex-col rounded-xl bg-clip-border text-gray-700 shadow-2xl cursor-pointer">
     <div className="relative overflow-hidden rounded-t-md bg-white bg-clip-border text-gray-700">
         <img
@@ -14,25 +17,18 @@ const Catagory = ({card}) => {
     </div>
     <div className="p-6">
         <div className="mb-2 flex items-center justify-between">
-        <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+        <p style={{ backgroundColor: text_button_bg_color || 'red' ,color:category_bg_text_color || 'red'}}  className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased shadow-2xl px-4 py-1 rounded-md">
             {title}
         </p>
-        
-        {/* <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
-            $95.00
-        </p> */}
         </div>
-        <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+        <p style={{color:category_bg_text_color || 'red'}}  className="block font-sans text-base  leading-relaxed text-blue-gray-900 antialiased font-bold">
             {category}
         </p>
-        {/* <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75">
-        With plenty of talk and listen time, voice-activated Siri access, and an
-        available wireless charging case.
-        </p> */}
     </div>
     <div className="p-6 pt-0">
     </div>
                 </div>
+                </Link>
         </div>
     );
 };
