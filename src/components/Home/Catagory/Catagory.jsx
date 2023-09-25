@@ -7,7 +7,7 @@ const Catagory = ({card}) => {
     const{id,img,title,category,card_bg_color,text_button_bg_color,category_bg_text_color}=card;
     return (
         <div>
-                <Link to={`/catagories/${id}`}>
+                <Link to={`/catagory/${id}`}>
                 <div style={{ backgroundColor: card_bg_color || 'red' }} className="relative flex  flex-col rounded-xl bg-clip-border text-gray-700 shadow-2xl cursor-pointer">
     <div className="relative overflow-hidden rounded-t-md bg-white bg-clip-border text-gray-700">
         <img

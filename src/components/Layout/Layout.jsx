@@ -6,8 +6,10 @@ const Layout = () => {
     return (
         <div className="max-w-[1300px] mx-auto">
          <Navber></Navber>
-         <Outlet></Outlet>
-         {/* <Footer></Footer> */}
+        <div className="py-16">
+        <Outlet></Outlet>
+        </div>
+       
             
         </div>
     );
