@@ -1,19 +1,18 @@
-{
-    "items": [
+[
       {
         "id": 1,
-        "img": "https://ibb.co/gmH4Gr3",
+        "img": "https://i.ibb.co/mcYwmMT/Health.png",
         "title": "Health",
         "category": "Clean water for children",
         "category_bg_color": "#3498db",
-        "card_bg_color": "#ecf0f1",
+        "card_bg_color": "#0052ff26",
         "text_button_bg_color": "#2ecc71",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "price": 49.99
       },
       {
         "id": 2,
-        "img": "https://ibb.co/hXQPjSZ",
+        "img": "https://i.ibb.co/SN76hyj/Education.png",
         "title": "Education",
         "category": "Good education",
         "category_bg_color": "#e74c3c",
@@ -24,7 +23,7 @@
       },
       {
         "id": 3,
-        "img": "https://ibb.co/GMmj5zV",
+        "img": "https://i.ibb.co/Tm9X3xC/Clothing.png",
         "title": "Clothing",
         "category": "Used Clothing Drive",
         "category_bg_color": "#9b59b6",
@@ -35,7 +34,7 @@
       },
       {
         "id": 4,
-        "img": "https://ibb.co/0sZxXV1",
+        "img": "https://i.ibb.co/tD9vLWS/Food.png",
         "title": "Food",
         "category": "Better Food for Everyone",
         "category_bg_color": "#3498db",
@@ -46,7 +45,7 @@
       },
       {
         "id": 5,
-        "img": "https://ibb.co/0sZxXV1",
+        "img": "https://i.ibb.co/tD9vLWS/Food.png",
         "title": "Food",
         "category": "Better Food for Everyone",
         "category_bg_color": "#e74c3c",
@@ -57,7 +56,7 @@
       },
       {
         "id": 6,
-        "img": "https://ibb.co/GMmj5zV",
+        "img": "https://i.ibb.co/Tm9X3xC/Clothing.png",
         "title": "Clothing",
         "category": "Used Clothing Drive",
         "category_bg_color": "#9b59b6",
@@ -68,7 +67,7 @@
       },
       {
         "id": 7,
-        "img": "https://ibb.co/hXQPjSZ",
+        "img": "https://i.ibb.co/SN76hyj/Education.png",
         "title": "Education",
         "category": "Good education",
         "category_bg_color": "#3498db",
@@ -79,29 +78,29 @@
       },
       {
         "id": 8,
-        "img": "https://ibb.co/gmH4Gr3",
+        "img": "https://i.ibb.co/mcYwmMT/Health.png",
         "title": "Health",
         "category": "Clean water for children",
         "category_bg_color": "#e74c3c",
-        "card_bg_color": "#f2dede",
+        "card_bg_color": "#0052ff26",
         "text_button_bg_color": "#e67e22",
         "description": "Pellentesque in justo ut enim convallis tristique.",
         "price": 49.99
       },
       {
         "id": 9,
-        "img": "https://ibb.co/gmH4Gr3",
+        "img": "https://i.ibb.co/mcYwmMT/Health.png",
         "title": "Health",
         "category": "Clean water for children",
         "category_bg_color": "#9b59b6",
-        "card_bg_color": "#d2b4de",
+        "card_bg_color": "#0052ff26",
         "text_button_bg_color": "#e74c3c",
         "description": "Curabitur vel enim vel nulla interdum feugiat.",
         "price": 99.99
       },
       {
         "id": 10,
-        "img": "https://ibb.co/hXQPjSZ",
+        "img": "https://i.ibb.co/SN76hyj/Education.png",
         "title": "Education",
         "category": "Good education",
         "category_bg_color": "#3498db",
@@ -112,7 +111,7 @@
       },
       {
         "id": 11,
-        "img": "https://ibb.co/GMmj5zV",
+        "img": "https://i.ibb.co/Tm9X3xC/Clothing.png",
         "title": "Clothing",
         "category": "Used Clothing Drive",
         "category_bg_color": "#e74c3c",
@@ -123,7 +122,7 @@
       },
       {
         "id": 12,
-        "img": "https://ibb.co/0sZxXV1",
+        "img": "https://i.ibb.co/tD9vLWS/Food.png",
         "title": "Food",
         "category": "Better Food for Everyone",
         "category_bg_color": "#9b59b6",
@@ -133,5 +132,4 @@
         "price": 69.99
       }
     ]
-  }
   

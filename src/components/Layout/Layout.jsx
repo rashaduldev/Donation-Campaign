@@ -1,14 +1,14 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../Footer/Footer";
 import Navber from "../Header/Navber/Navber";
+// import Footer from "../Footer/Footer";
 
 const Layout = () => {
     return (
-        <div>
-            hello
-            <Footer></Footer>
-            <Outlet></Outlet>
-            <Navber></Navber>
+        <div className="max-w-[1300px] mx-auto">
+         <Navber></Navber>
+         <Outlet></Outlet>
+         {/* <Footer></Footer> */}
+            
         </div>
     );
 };

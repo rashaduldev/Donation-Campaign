@@ -4,14 +4,14 @@ import Logo from "../../ChildPage/Logo/Logo";
 const Navber = () => {
     return (
      <div>
-       <div className="flex justify-between items-center">
-        <nav><Logo></Logo></nav>
-       <ul className="flex gap-5">
+       <div className="flex flex-col lg:flex-row justify-between items-center mx-auto">
+        <nav className="my-5"><Logo></Logo></nav>
+       <ul className="flex gap-5 text-xl">
             <li>
                 <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-green-400 underline" : ""
+                    isPending ? "pending" : isActive ? "text-red-400 underline" : ""
                 }
                 >
                 Home
@@ -21,7 +21,7 @@ const Navber = () => {
                 <NavLink
                 to="/donation"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-green-400 underline" : ""
+                    isPending ? "pending" : isActive ? "text-red-400 underline" : ""
                 }
                 >
                 Donation
@@ -31,7 +31,7 @@ const Navber = () => {
                 <NavLink
                 to="/statistics"
                 className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-green-400 underline" : ""
+                    isPending ? "pending" : isActive ? "text-red-400 underline" : ""
                 }
                 >
                 Statistics
