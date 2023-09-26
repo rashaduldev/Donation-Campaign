@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 // import { useHistory } from 'react-router-dom';
 
-const Card = ({data}) => {
+const Card = ({data,updateSumOfValues}) => {
     const{id,img,price,title,description,category,card_bg_color,text_button_bg_color,category_bg_text_color}=data;
 
       const handleFavaroite=()=>{
@@ -71,3 +71,5 @@ const Card = ({data}) => {
 };
 
 export default Card;
+
+
