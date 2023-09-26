@@ -5,6 +5,8 @@ import DonateList from "./DonateIteam/DonateList";
 const Donation = () => {
   const [donate, setDonate] = useState([]);
   const [noData, setNoData] = useState("");
+  const [isShow, setIsShow] = useState(false);
+  console.log(isShow);
 
   useEffect(() => {
     const favIteam = JSON.parse(localStorage.getItem('favorites'));
@@ -27,13 +29,32 @@ const Donation = () => {
          </p>
        ) : (
          <div className="grid grid-cols-1 mx-5 lg:grid-cols-2 gap-5">
-           {donate.map(card => (
+           {
+          isShow? donate.map(card => (
             <DonateList key={card.id} card={card}></DonateList>
-            //  <Catagory key={card.id} card={card}></Catagory>
-           ))}
+           ))
+           :
+           donate.slice(0,4).map(card => (
+            <DonateList key={card.id} card={card}></DonateList>
+           ))
+           }
          </div>
+        
        )
      }
+      {!isShow && (
+       <div>
+         <button
+           onClick={() => setIsShow(true)}
+           className="flex justify-center items-center text-center mx-auto mt-6 bg-[#009444] py-2 rounded text-white px-6"
+         >
+           See all
+         </button>
+       </div>
+     )}
+     {/* <div>
+     <button onClick={()=>setIsShow(!isShow)} className="flex justify-center items-center text-center mx-auto mt-6 bg-[#009444] py-2 rounded text-white px-6">{!isShow?"See all": "hidde"}</button>
+     </div> */}
     </div>
   );
 };

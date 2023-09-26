@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DonateList = ({card}) => {
     // eslint-disable-next-line no-unused-vars
@@ -27,12 +28,14 @@ const DonateList = ({card}) => {
    ${price}.00
     </p>
     <a className="inline-block" href="#">
+      <Link to={`/catagory/${id}`}>
       <button  style={{ backgroundColor: category_bg_text_color || 'red'}} 
         className="text-white p-2 rounded-md font-bold text-[16px]"
         type="button"
       >
     View Details
       </button>
+      </Link>
     </a>
   </div>
 </div>
