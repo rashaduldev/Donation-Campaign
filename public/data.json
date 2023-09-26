@@ -7,8 +7,8 @@
         "category_bg_text_color": "#0052FF",
         "card_bg_color": "#0052ff26",
         "text_button_bg_color": "#0052ff33",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "price": 49.99
+        "description": "Health is the foundation of a fulfilling life. Proper nutrition, regular exercise, and mental well-being contribute to overall vitality and longevity. Prioritizing health leads to a happier, more active, and balanced life.",
+        "price": 49
       },
       {
         "id": 2,
@@ -18,19 +18,19 @@
         "category_bg_text_color": "#FF444A",
         "card_bg_color": "#ff444a26",
         "text_button_bg_color": "#ff444a33",
-        "description": "Suspendisse nec justo in urna varius pellentesque.",
-        "price": 29.99
+        "description": "Education is a lifelong journey that empowers individuals with knowledge, skills, and opportunities. It fosters personal growth, critical thinking, and the ability to contribute meaningfully to society.",
+        "price": 29
       },
       {
         "id": 3,
-        "img": "https://i.ibb.co/Tm9X3xC/Clothing.png",
+        "img": "https://i.ibb.co/SwSPhGF/Clothing.png",
         "title": "Clothing",
         "category": "Used Clothing Drive",
         "category_bg_text_color": "#79C23F",
         "card_bg_color": "#79c23f26",
         "text_button_bg_color": "#79c23f33",
-        "description": "Proin eu odio ut urna malesuada vehicula.",
-        "price": 79.99
+        "description": "Clothing is more than just attire; it's a form of self-expression. It reflects culture, style, and personality. Choosing the right clothing allows us to feel confident and make a statement.",
+        "price": 79
       },
       {
         "id": 4,
@@ -40,8 +40,8 @@
         "category_bg_text_color": "#F87147",
         "card_bg_color": "#f8714726",
         "text_button_bg_color": "#f8714733",
-        "description": "Vestibulum auctor dolor nec ante rutrum consectetur.",
-        "price": 59.99
+        "description": "Food is not just sustenance; it's a source of pleasure, culture, and nourishment. It fuels our bodies, connects us with traditions, and brings people together through shared meals and experiences.",
+        "price": 59
       },
       {
         "id": 5,
@@ -51,8 +51,8 @@
         "category_bg_text_color": "#F87147",
         "card_bg_color": "#f8714726",
         "text_button_bg_color": "#f8714733",
-        "description": "Fusce eget purus ac sapien tristique euismod.",
-        "price": 39.99
+        "description": "Food is not just sustenance; it's a source of pleasure, culture, and nourishment. It fuels our bodies, connects us with traditions, and brings people together through shared meals and experiences.",
+        "price": 39
       },
       {
         "id": 6,
@@ -62,8 +62,8 @@
         "category_bg_text_color": "#79C23F",
         "card_bg_color": "#79c23f26",
         "text_button_bg_color": "#79c23f33",
-        "description": "Nulla facilisi. In hac habitasse platea dictumst.",
-        "price": 89.99
+        "description": "Clothing is more than just attire; it's a form of self-expression. It reflects culture, style, and personality. Choosing the right clothing allows us to feel confident and make a statement.",
+        "price": 89
       },
       {
         "id": 7,
@@ -73,8 +73,8 @@
         "category_bg_text_color": "#FF444A",
         "card_bg_color": "#ff444a26",
         "text_button_bg_color": "#ff444a33",
-        "description": "Quisque ac quam non erat pulvinar malesuada.",
-        "price": 69.99
+        "description": "Education is a lifelong journey that empowers individuals with knowledge, skills, and opportunities. It fosters personal growth, critical thinking, and the ability to contribute meaningfully to society.",
+        "price": 69
       },
       {
         "id": 8,
@@ -84,8 +84,8 @@
         "category_bg_text_color": "#0052FF",
         "card_bg_color": "#0052ff26",
         "text_button_bg_color": "#0052ff33",
-        "description": "Pellentesque in justo ut enim convallis tristique.",
-        "price": 49.99
+        "description": "Health is the foundation of a fulfilling life. Proper nutrition, regular exercise, and mental well-being contribute to overall vitality and longevity. Prioritizing health leads to a happier, more active, and balanced life.",
+        "price": 49
       },
       {
         "id": 9,
@@ -95,8 +95,8 @@
         "category_bg_text_color": "#0052FF",
         "card_bg_color": "#0052ff26",
         "text_button_bg_color": "#0052ff33",
-        "description": "Curabitur vel enim vel nulla interdum feugiat.",
-        "price": 99.99
+        "description": "Health is the foundation of a fulfilling life. Proper nutrition, regular exercise, and mental well-being contribute to overall vitality and longevity. Prioritizing health leads to a happier, more active, and balanced life.",
+        "price": 99
       },
       {
         "id": 10,
@@ -106,8 +106,8 @@
         "category_bg_text_color": "#FF444A",
         "card_bg_color": "#ff444a26",
         "text_button_bg_color": "#ff444a33",
-        "description": "Sed in quam non lectus fermentum mattis.",
-        "price": 79.99
+        "description": "Education is a lifelong journey that empowers individuals with knowledge, skills, and opportunities. It fosters personal growth, critical thinking, and the ability to contribute meaningfully to society.",
+        "price": 79
       },
       {
         "id": 11,
@@ -117,8 +117,8 @@
         "category_bg_text_color": "#79C23F",
         "card_bg_color": "#79c23f26",
         "text_button_bg_color": "#79c23f33",
-        "description": "Vivamus lacinia a dui id posuere.",
-        "price": 59.99
+        "description": "Clothing is more than just attire; it's a form of self-expression. It reflects culture, style, and personality. Choosing the right clothing allows us to feel confident and make a statement.",
+        "price": 59
       },
       {
         "id": 12,
@@ -128,8 +128,8 @@
         "category_bg_text_color": "#F87147",
         "card_bg_color": "#f8714726",
         "text_button_bg_color": "#f8714733",
-        "description": "Nam a metus a odio malesuada dictum.",
-        "price": 69.99
+        "description": "Food is not just sustenance; it's a source of pleasure, culture, and nourishment. It fuels our bodies, connects us with traditions, and brings people together through shared meals and experiences.",
+        "price": 69
       }
     ]
   
