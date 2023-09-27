@@ -22,19 +22,16 @@ const Card = ({data,updateSumOfValues}) => {
           const isExist = favIteam.find(item => item.id === id);
 
           if (!isExist) {
-            // If it doesn't exist, add the new item to favorites
             favIteam.push(data);
             localStorage.setItem('favorites', JSON.stringify(favIteam));
             toast.success("Added to Donation");
           } else {
-            // If it exists, show an error toast message
             toast.error("Item already exists in Donation");
           }
          
         }
       }
-
-
+      
     console.log(data);
     return (
         <div>

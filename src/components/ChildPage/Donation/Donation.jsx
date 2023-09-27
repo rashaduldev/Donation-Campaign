@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 
 import DonateList from "./DonateIteam/DonateList";
@@ -10,14 +11,13 @@ const Donation = () => {
 
   useEffect(() => {
     const favIteam = JSON.parse(localStorage.getItem('favorites'));
-    console.log(favIteam);
+    // console.log(favIteam);
     if (favIteam) {
       setDonate(favIteam);
       donate.map(item=><Statistics key={item.id} item={item}></Statistics>)
     } else {
       setNoData("No Data Found ,Please go to Homepage and Donate");
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

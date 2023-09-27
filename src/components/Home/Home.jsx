@@ -1,37 +1,43 @@
-/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
+// /* eslint-disable no-undef */
+import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner/Banner";
 import Catagories from "./Catagories/Catagories";
 import './Home.css'
-// import backgroundImage from '../../../public/Resources/donation.png';
-
 
 const Home = () => {
-    // const divStyle = {
-    //     backgroundImage: `url(${backgroundImage})`, // Set the background image
-    //     backgroundSize: 'cover',
-    //     backgroundPosition: 'center',
-    //     minHeight: '100vh', // Adjust as needed
-    //   };
+  const allCard = useLoaderData();
+  const [filteredItems, setFilteredItems] = useState(allCard);
 
-    const allCard=useLoaderData();
-    console.log(allCard.items);
-
-    if (!Array.isArray(allCard)) {
-        return null; // Or display an appropriate error message
+  // Callback to update filtered items based on search query
+  const handleSearch = (searchQuery) => {
+    if (searchQuery.trim() === "") {
+      // If the search query is empty, reset to all items
+      setFilteredItems(allCard);
+    } else {
+      // Filter items based on search query
+      const filtered = allCard.filter((item) =>
+        item.title.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+      setFilteredItems(filtered);
     }
-    return (
-        <div>
-            <div className="layout-container">
-            <div className="overlay"></div>
-            <Banner></Banner>
-           
-            </div>
-            
-            <Catagories allCard={allCard}></Catagories>
-            
-        </div>
-    );
+  };
+
+  if (!Array.isArray(allCard)) {
+    return null;
+  }
+
+  return (
+    <div>
+      <div className="layout-container">
+        <div className="overlay"></div>
+        <Banner onSearch={handleSearch} />
+      </div>
+
+      <Catagories allCard={filteredItems} />
+    </div>
+  );
 };
 
 export default Home;

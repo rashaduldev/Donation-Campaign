@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from 'react';
@@ -14,13 +15,10 @@ useEffect(()=>{
     const findPhone=dataLoad.find(daata=>daata.id==id);
     // console.log(data.id);
     // console.log(findPhone);
-   
     setData(findPhone);
 },[id,dataLoad])
     console.log(data);
     
-  
-
     return (
         <div className=''>
             <Card data={data}></Card>

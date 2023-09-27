@@ -1,5 +1,3 @@
-
-
 const Logo = () => {
     return (
         <div>

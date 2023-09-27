@@ -39,9 +39,8 @@ const DonateList = ({card}) => {
       </Link>
     </a>
   </div>
+</div>        
 </div>
-           
-        </div>
     );
 };
 
