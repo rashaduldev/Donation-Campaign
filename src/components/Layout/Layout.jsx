@@ -7,9 +7,9 @@ const Layout = () => {
        <Navber></Navber>
        </div>
         <div className="py-16">
-          <Outlet></Outlet>
+         
         </div>
-      
+        <Outlet></Outlet>
       </div>
     );
   };

@@ -46,7 +46,7 @@ const Donation = () => {
         <div>
           <button
             onClick={() => setIsShow(true)}
-            className="flex justify-center items-center text-center mx-auto mt-6 bg-[#009444] py-2 rounded text-white px-6"
+            className="flex justify-center items-center text-center mx-auto mt-6 bg-[#009444] py-2 rounded text-white px-6 my-5"
           >
             See all
           </button>
