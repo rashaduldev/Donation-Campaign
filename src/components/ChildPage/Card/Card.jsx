@@ -35,14 +35,15 @@ const Card = ({data,updateSumOfValues}) => {
     console.log(data);
     return (
         <div>
-              <div className="relative flex h-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-  <div className="w-full  overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
-    <img className='mx-auto w-full '
+              <div className="h-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+ <div className='relative'>
+ <div className="w-full rounded-xl text-white">
+    <img className='h-3/6 w-full object-cover rounded-lg'
       src={img}
       layout="fill"
     />
   </div>
-  <div className="absolute bottom-[178px] left-0 w-full p-4 bg-black opacity-50 rounded-b-xl">
+  <div className="absolute bottom-[0px] lg:bottom-[0px] left-0 w-full p-4 bg-black opacity-80 rounded-b-xl">
     <button
     onClick={handleFavaroite}
     style={{ backgroundColor: category_bg_text_color}}
@@ -53,8 +54,9 @@ const Card = ({data,updateSumOfValues}) => {
       Donate ${price}
     </button>
   </div>
-  <div className="p-6">
-    <h5 className="mb-2 block font-sans text-4xl leading-snug tracking-normal text-blue-gray-900 antialiased font-bold my-5">
+ </div>
+  <div className="p-6 text-center lg:text-left">
+    <h5 className="mb-2 block font-sans text-3xl lg:text-4xl leading-snug tracking-normal text-blue-gray-900 antialiased font-bold my-5">
      {category}
     </h5>
     <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
