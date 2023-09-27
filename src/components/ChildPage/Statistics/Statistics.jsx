@@ -1,18 +1,26 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useState, useEffect } from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 const COLORS = ['#FF444A', '#00C49F'];
 
-const Statistics = ({ sumOfValues }) => {
+const Statistics = () => {
+  
+  const [favIteam, setFavIteam] = useState([]);
 
+  useEffect(() => {
+    const storedFavIteam = JSON.parse(localStorage.getItem('favorites'));
+    if (storedFavIteam) {
+      setFavIteam(storedFavIteam);
+    }
+  }, []);
   const data = [
-    { name: 'Group A', value: 12 },
-    { name: 'Group B', value: sumOfValues },
+    { name: 'Group A', value: 12 - favIteam.length },
+    { name: 'Group B', value: favIteam.length },
   ];
 
   return (
     <div>
-      
       <ResponsiveContainer width="100%" height={400}>
         <PieChart>
           <Pie

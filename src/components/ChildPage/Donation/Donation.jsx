@@ -15,8 +15,9 @@ const Donation = () => {
       setDonate(favIteam);
       donate.map(item=><Statistics key={item.id} item={item}></Statistics>)
     } else {
-      setNoData("No Data Found");
+      setNoData("No Data Found ,Please go to Homepage and Donate");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

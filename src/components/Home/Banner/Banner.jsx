@@ -1,6 +1,7 @@
 
 
 const Banner = () => {
+    
     return (
         <div className="text-center items-center h-[80vh] flex justify-center">
             <div className=" relative mx-10">
